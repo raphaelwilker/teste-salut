@@ -1,0 +1,129 @@
+body{
+	background: url('../img/background.png') no-repeat;
+}
+
+.button_Orange{
+	background: url(../img/orange_button.png);
+    width: 100%;
+    height: 44px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border-color: #bf272c;
+    border: 1px solid #bf272c;
+}
+
+.input_search{
+	margin: 10px 0px;
+    border-radius: 5px;
+    width: 100%;
+    height: 44px;
+}
+
+div#row_search{
+	margin-top: 250px;
+}
+
+#demo{
+	/*transition: visibility 0s, opacity 0.5s linear;*/
+
+}
+
+#demo::after{
+	-webkit-animation: fadein 2s; 
+	-moz-animation: fadein 2s; 
+	-ms-animation: fadein 2s; 
+	-o-animation: fadein 2s; 
+	animation: fadein 2s;
+}
+
+.list_video_row{
+    margin-bottom: 10px;
+    max-height: 110px;
+    display: none;
+}
+
+.list_video_row > .col_thumb{
+	background-color: #e6e6e6;
+    border-radius: 5px;
+    height: 110px;
+    border: solid 1px;
+    border-color: #676767;
+}
+
+.col_thumb .thumbnail{
+	margin: 10px 0px 10px -5px;
+	cursor: pointer;
+
+}
+
+.list_video_row > .col_description{
+    border-radius: 5px;
+    height: 110px;
+    background-image: url('../img/background_color_descript.png');
+    border: solid 1px;
+    border-color: #676767;
+}
+
+p.description_list{
+	margin: 5px 0px !important;
+	word-break: break-word;
+}
+
+#description_video{
+
+	margin-top: 10px;
+	background-image: url('../img/background_color_descript.png');
+	border-radius: 5px;
+    height: auto;
+    border: solid 1px;
+    border-color: #676767;
+    background-repeat-y: no-repeat;
+    background-size: cover;
+}
+
+#description_video > p{
+	margin: 5px;
+}
+
+#container_player{
+	display: none;
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style glyph */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding:  25px 15px 15px 165px;
+  pointer-events: none;
+}
+
+.right-addon .glyphicon { 
+	right: 0px;
+}
+
+.arrow{
+	transform: rotate(180deg);
+	position: absolute;
+}
+
+#back_btn{
+	width: 100px;
+	float: right;
+	margin-right: 10px;
+}
+
+.shadow{
+	background-color: #000000;
+    padding: 10px 0px 0px 0px;
+    border-radius: 10px;
+    opacity: 0.5;
+    transform: scale(9,0.9);
+    width: 40px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
